@@ -1,0 +1,251 @@
+@import url(https://pro.fontawesome.com/releases/v5.11.2/css/all.css);
+@import url('https://fonts.googleapis.com/css2?family=Dongle&display=swap');
+@import url('http://fonts.googleapis.com/css?family=Oswald:300');
+@import url('http://fonts.googleapis.com/css?family=Shadows+Into+Light+Two');
+@import url('https://fonts.googleapis.com/css?family=Reenie Beanie');
+body {
+    width: 100vw;
+    height: 100vh;
+    background: #161819;
+    font-family: 'Dongle';
+}
+.logo {
+    width: 4em;
+    height: 4em;
+    margin-left: 3em;
+    margin-bottom: 1em;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+  letter-spacing: 1.1px;
+}
+.navbar {
+    background: #161819;;
+    margin-left: -1em;
+    margin-top: -1.15em;
+    padding: 20px;
+    overflow: hidden;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    float: left;
+    font-size: 30px;
+    display: block;
+    color: white;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+  .logo {
+      height: 15em;
+      width: 15em;
+      margin-top: -6em;
+  }
+  .heading {
+    font-size: 80px;
+    color: white;
+    font-weight: bold;
+    margin-top: -2em;
+    margin-left: 6.5em;
+    padding: 0px;
+  }
+  .banner {
+      height: 36.5em;
+      width: 30em;
+      margin-right: 3em;
+      margin-bottom: 5em;
+      border-radius: 8px;
+  }
+.snote{
+max-width:100%;
+background-color:#666;
+}
+
+.snote h2,p{
+  font-size:10px;
+  font-weight:normal;
+}
+
+.count-particles {
+    background: #000022;
+    width: 80px;
+    color: #13e8e9;
+    font-size: 0.8em;
+    text-align: left;
+    text-indent: 4px;
+    line-height: 14px;
+    padding-bottom: 2px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+  }
+  #particles-js {
+    /* position: abs; */
+    margin-top: -102em;
+    width: 100vw;
+    height: 190vh;
+    background-color: #161819;
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+
+  }
+.snote h2 {
+    font-weight: bold;
+    font-size: 2rem;
+  }
+  .snote p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  .snote ul,li{
+    list-style:none;
+    overflow: auto;
+  }
+  .snote ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .snote ul li {
+    text-decoration:none;
+    color:#000;
+    background-image: linear-gradient(to right top, #89d591, #88c37f, #86b16f, #82a061, #7c8f54);
+    display:block;
+    height:20em;
+    width:20em;
+    padding:1em;
+    box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+    border-radius: 15px;
+    border: 5px solid #fff;
+    transform: rotate(-6deg);
+    transition: transform .15s linear;
+  }
+  
+  .snote ul li:nth-child(even){
+    transform:rotate(4deg);
+    position:relative;
+    top:5px;
+    background-image: linear-gradient(to right top, #89d5bc, #70c5bb, #5cb4b8, #4ea3b2, #4891aa);
+  }
+  .snote ul li:nth-child(3n){
+    transform:rotate(-3deg);
+    position:relative;
+    top:-5px;
+    background-image: linear-gradient(to right top, #b9bd84, #bfc37d, #c6c875, #cdce6d, #d4d364);
+    
+  }
+  .snote ul li:nth-child(6n){
+    transform:rotate(4deg);
+    position:relative;
+    top:5px;
+    background-image: linear-gradient(to right top, #89d5bc, #70c5bb, #5cb4b8, #4ea3b2, #4891aa);
+  }
+  .snote ul li:nth-child(5n){
+    transform:rotate(5deg);
+    position:relative;
+    top:-10px;
+  }
+  
+  .snote ul li:hover,ul li:focus{
+    box-shadow:10px 10px 7px rgba(0,0,0,.7);
+    transform: scale(1.25);
+    position:relative;
+    z-index:5;
+    
+  }
+  .snote ul li:hover p,ul li:focus p{
+    font-weight: 600;
+  }
+  
+  .snote ul li{
+    margin:1em;
+  }
+hr{
+    border: 2px solid #fff;
+    border-radius: 5px;
+    margin-bottom: 1em;
+}
+.animated-bar {
+    background-color: #fff;
+    content: '';
+    display: block;
+    height: 4px;
+    left: 0;
+    margin: 0 auto 0 auto;
+    position: relative;
+    right: 0;
+    width: 200px;
+    margin-bottom: 0em;
+    margin-top: -1.5em;
+    margin-left: 41em;
+  }
+  .animated-bar:before,
+  .animated-bar:after {
+    -webkit-animation-duration: 3s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-name: barAnimation;
+    -webkit-animation-timing-function: linear;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-name: barAnimation;
+    animation-timing-function: linear;
+    background-color: #101010;
+    content: '';
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 4px;
+  }
+  
+  .animated-bar:before {
+    left: 8px;
+  }
+  
+  .animated-bar:after {
+    left: 0;
+  }
+  
+  @-webkit-keyframes barAnimation {
+    from {
+      -webkit-transform: translateX(0);
+      transform: translateX(0);
+    }
+  
+    to {
+      -webkit-transform: translateX(200px);
+      transform: translateX(200px);
+    }
+  }
+  
+  @keyframes barAnimation {
+    from {
+      -webkit-transform: translateX(0);
+      transform: translateX(0);
+    }
+  
+    to {
+      -webkit-transform: translateX(200px);
+      transform: translateX(200px);
+    }
+  }
